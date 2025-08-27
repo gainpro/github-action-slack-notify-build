@@ -1,3 +1,10 @@
+# :warning: DEPRECATED :warning:
+
+This forked library relies on [voxmedia/github-action-slack-notify-build](https://github.com/voxmedia/github-action-slack-notify-build), which was officially deprecated in May 2024.
+
+Consider migrating to [slackapi/slack-github-action](https://github.com/slackapi/slack-github-action)
+or another actively maintained Slack integration for GitHub Actions.
+
 # Slack Notify Build
 
 This action prints your GitHub Action build status to Slack. It takes an opinionated approach by showing attachments for metadata like branch, pull request, and event. This action allows [existing messages to be updated](#updating-an-existing-message) to reduce unwanted noise in your Slack channel. Heavily-inspired by [Post Slack messages](https://github.com/marketplace/actions/post-slack-message).
